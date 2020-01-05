@@ -1,0 +1,20 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kasper Sebb' brandt <sebb@sebb.dk>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-ip": "^2.0.0",
+    "koa-static": "^5.0.0",
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.0",
+    "rmfr": "^2.0.0",
+    "unzipper": "^0.10.5"
+  }
+}
