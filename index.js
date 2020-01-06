@@ -9,7 +9,7 @@ const args = process.argv.reduce((acc, curr) => {
 
 try {
     const bundles = args['bundles'] ? JSON.parse(args['bundles']):{};
-    require('./lib/static.api')({ ...args, bundles });
+    require('./lib/static')({ ...args, bundles });
 } catch(err) {
     console.error("Error in main method", err);
 }
