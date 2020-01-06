@@ -5,7 +5,8 @@
   "author": "Kasper Sebb' brandt <sebb@sebb.dk>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "nodemon": "nodemon"
   },
   "dependencies": {
     "koa": "^2.11.0",
