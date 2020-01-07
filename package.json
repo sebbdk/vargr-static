@@ -9,6 +9,7 @@
     "nodemon": "nodemon"
   },
   "dependencies": {
+    "@koa/cors": "2",
     "koa": "^2.11.0",
     "koa-body": "^4.1.1",
     "koa-ip": "^2.0.0",
