@@ -19,6 +19,7 @@ Use you you own risk.
 * Optional Client GUI
 * Symlink with ~ home folder
 * Unit tests
+* file/folder info, creation date etc.
 * Maintain map and/or use routing instead of symlinks?
 * Map folder to port for nginx / domain mapping ?
 
